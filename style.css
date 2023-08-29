@@ -1,0 +1,155 @@
+@import url('https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2VpTDZoNG1iYWZKaFRwLWRRZVZOcjIxWERHd3xBQ3Jtc0ttTG9yWG1VRDVEanBEM3BRMTBRSDBzWi1NWm9VVV9GZnFiYzZvU0gxR0lKQlJiaGdNZHZfenY0WjZ3ZUwyam9pckZjbkI3U2RmVUVMd21MX0hNSWZEZlZjZ2ZwZm4xTGNrQ1NwU1pQNWFVWmZmNGVTUQ&q=https%3A%2F%2Ftinyurl.com%2FGoogleFontsPoppins&v=iP-jnnzxnqU');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    /* margin: auto; */
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod-img {
+    width: 300px;
+    height: 230px;
+    background-image: url('prod-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.detail {
+  
+    width: 100%;
+    padding: 0.4rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #21222d;
+}
+
+
+
+.date,
+.sector {
+    font-size: 0.8rem;
+    color: #5f5f6b;
+    margin-top: 15px;
+    text-align: center;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 10%;
+    flex: 1;
+    
+}
+
+.sector {
+    margin-left: 10px; /* Add some spacing between
+     date and sector */
+      padding-left: 30px;
+     padding-right: 30px;
+   
+}
+.date{
+     padding-left: 35px;
+     padding-right: 35px;
+}
+
+.location {
+    font-size: 0.8rem;
+    color: #5f5f6b;
+   
+    text-align: center;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 10%;
+     margin-bottom: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+    
+}
+
+.toprow {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:3px 2px;
+}
+
+.name {
+    margin-top: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: green;
+    user-select: none;
+}
+
+.middlerow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* Adjust the margin as needed */
+    /* margin-top: 20px;  */
+    padding: 10px;
+}
+.verified{
+    display: flex;
+    justify-content: flex-end;
+     background-color: #21222d;
+     padding-top: 7px;
+     padding-bottom: 7px;
+     padding-right: 7px;
+
+    /* align-items: center; */
+    /* margin: 5px 0px; */
+}
+.container2{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 2px solid green;
+    /* padding: 5px; */
+    border-radius: 2%;
+    margin: 6px;
+}
+
+.detail2{
+      display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.threeCard{
+    display: flex;
+    /* justify-content: space-around; */
+
+}
