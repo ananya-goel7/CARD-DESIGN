@@ -1,5 +1,6 @@
 @import url('https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2VpTDZoNG1iYWZKaFRwLWRRZVZOcjIxWERHd3xBQ3Jtc0ttTG9yWG1VRDVEanBEM3BRMTBRSDBzWi1NWm9VVV9GZnFiYzZvU0gxR0lKQlJiaGdNZHZfenY0WjZ3ZUwyam9pckZjbkI3U2RmVUVMd21MX0hNSWZEZlZjZ2ZwZm4xTGNrQ1NwU1pQNWFVWmZmNGVTUQ&q=https%3A%2F%2Ftinyurl.com%2FGoogleFontsPoppins&v=iP-jnnzxnqU');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Roboto:wght@400;500&display=swap');
 
 * {
     padding: 0;
@@ -18,9 +19,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: center;
     /* margin: auto; */
     height: 100vh;
+    
 }
 
 .card {
@@ -35,7 +36,7 @@ body {
 
 .prod-img {
     width: 300px;
-    height: 230px;
+    height: 130px;
     background-image: url('prod-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -43,53 +44,55 @@ body {
 }
 
 .detail {
-  
     width: 100%;
     padding: 0.4rem;
+    width: 300px;
+    height: 230px;
     font-family: "Poppins", sans-serif;
-    color: #fff;
-    background-color: #21222d;
+    color: #106b10;
+    background-color: #ffffff;
 }
 
 
+.description{
+    padding-top: 20px;
+    /* margin: 10%; */
+    text-align: justify;
+    text-justify: inter-word;
+    height: 93px;
+    width: 280px;
+    word-wrap:break-word;
+    overflow: hidden;
+}
 
-.date,
 .sector {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #5f5f6b;
     margin-top: 15px;
     text-align: center;
-    border: 2px solid green;
+    padding-left: 35px;
+    padding-right: 35px;
     padding: 5px;
-    border-radius: 10%;
-    flex: 1;
-    
-}
-
-.sector {
-    margin-left: 10px; /* Add some spacing between
-     date and sector */
-      padding-left: 30px;
-     padding-right: 30px;
    
 }
 .date{
-     padding-left: 35px;
-     padding-right: 35px;
+    font-size: 0.9rem;
+    color: #5f5f6b;
+    margin-top: 15px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding: 5px;
 }
 
 .location {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #5f5f6b;
-   
+    margin-top: 15px;
     text-align: center;
-    border: 2px solid green;
+    padding-left: 35px;
+    padding-right: 35px;
     padding: 5px;
-    border-radius: 10%;
-     margin-bottom: 20px;
-     padding-left: 20px;
-     padding-right: 20px;
-    
 }
 
 .toprow {
@@ -102,54 +105,57 @@ body {
 
 .name {
     margin-top: 2px;
-    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 100;
+    font-size: 1.1rem;
 }
 
 .price {
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
-    color: green;
+    color: white;
     user-select: none;
+    background-color: #5f5f6b;
+    border-radius: 50%;
+    padding: 5%;
 }
 
-.middlerow {
+.lastrow {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
    /* Adjust the margin as needed */
     /* margin-top: 20px;  */
-    padding: 10px;
+    padding: 5px;
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    align-items: center;
 }
 .verified{
     display: flex;
     justify-content: flex-end;
-     background-color: #21222d;
+    color: #ffffff;
+     /* background-color: #21222d; */
      padding-top: 7px;
      padding-bottom: 7px;
-     padding-right: 7px;
+     /* padding-right: 7px; */
+     position: absolute;
+    top: 2px;
+    right: 2px;
 
     /* align-items: center; */
     /* margin: 5px 0px; */
 }
 .container2{
     /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    border: 2px solid green;
+    justify-content: center;*/
+    align-items: center; 
+    border: 2px solid black;
     /* padding: 5px; */
-    border-radius: 2%;
-    margin: 6px;
-}
-
-.detail2{
-      display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
-    align-items: center;
-}
-.threeCard{
-    display: flex;
-    /* justify-content: space-around; */
-
+    /* border-radius: 2%; */
+    /* margin: 6px; */
+    
 }
